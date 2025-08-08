@@ -1,3 +1,21 @@
+## Zero-Shot Prompting
+### O Zero-Shot Prompting (ou "Solicitação de Disparo Único", em tradução livre) é a forma mais direta de interagir com um modelo de linguagem (LLM). Consiste em dar uma instrução ou fazer uma pergunta diretamente, sem fornecer nenhum exemplo prévio de como a tarefa deve ser executada.
+
+    Analise o sentimento do seguinte comentário e classifique-o como positivo, negativo ou neutro: 'O serviço foi lento, mas os pratos estavam muito bons.
+
+### Quando o Zero-Shot Funciona?
+#### O método zero-shot é eficaz para tarefas gerais e bem definidas, como:
+
+ - Traduções de texto.
+ - Resumos de artigos.
+ - Respostas a perguntas factuais.
+ - Classificações simples.
+
+### Quando Técnicas Mais Avançadas são Necessárias?
+#### O zero-shot pode não ser a melhor abordagem quando a tarefa é complexa, ambígua ou exige um formato de saída muito específico. Nesses casos, as técnicas descritas nos documentos são superiores:
+#### Few-Shot Prompting: É usado para ensinar ao modelo um padrão específico ou para restringir a saída a um conjunto de rótulos desejados (ex: apenas "positivo", "negativo" ou "neutro").
+#### Chain-of-Thought Prompting: É essencial quando a tarefa exige raciocínio sofisticado e várias etapas lógicas para chegar à resposta correta, pois força o modelo a explicar seu processo de pensamento, o que aumenta a precisão.
+
 ## Few-Shot Prompting
 ### Esta técnica ensina um padrão ao modelo de linguagem através de exemplos de entradas e das saídas esperadas, em vez de descrever a tarefa com instruções diretas.
 
